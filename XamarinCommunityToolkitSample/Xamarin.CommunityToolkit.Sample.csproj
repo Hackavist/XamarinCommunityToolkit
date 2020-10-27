@@ -36,6 +36,15 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>AppResources.es.resx</DependentUpon>
     </Compile>
+    <Compile Update="Pages\Converters\BoolToObjectConverterPage.xaml.cs">
+      <DependentUpon>BoolToObjectConverterPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Pages\Converters\DoubleToIntConverterPage.xaml.cs">
+      <DependentUpon>DoubleToIntConverterPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Pages\Converters\EqualConverterPage.xaml.cs">
+      <DependentUpon>EqualConverterPage.xaml</DependentUpon>
+    </Compile>
   </ItemGroup>
 
   <ItemGroup>

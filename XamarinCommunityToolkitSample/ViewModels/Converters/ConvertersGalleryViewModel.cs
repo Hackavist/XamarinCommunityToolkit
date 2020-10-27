@@ -2,6 +2,7 @@
 using Xamarin.CommunityToolkit.Converters;
 using Xamarin.CommunityToolkit.Sample.Models;
 using Xamarin.CommunityToolkit.Sample.Pages.Converters;
+using Xamarin.CommunityToolkit.Sample.Resx;
 using Xamarin.Forms;
 
 namespace Xamarin.CommunityToolkit.Sample.ViewModels.Converters
@@ -10,6 +11,21 @@ namespace Xamarin.CommunityToolkit.Sample.ViewModels.Converters
 	{
 		public override IEnumerable<SectionModel> Items { get; } = new List<SectionModel>
 		{
+			new SectionModel(
+				typeof(BoolToObjectConverterPage),
+				"BoolToObjectConverter",
+				Color.FromHex("#498205"),
+				AppResources.BoolToObjectConverterShortDescription),
+			new SectionModel(
+				typeof(DoubleToIntConverterPage),
+				"DoubleToIntConverter",
+				Color.FromHex("#498205"),
+				AppResources.DoubleToIntConverterShortDescription),
+			new SectionModel(
+				typeof(EqualConverterPage),
+				"EqualConverter",
+				Color.FromHex("#498205"),
+				AppResources.EqualConverterShortDescription),
 			new SectionModel(
 				typeof(ItemTappedEventArgsPage),
 				nameof(ItemTappedEventArgsConverter),

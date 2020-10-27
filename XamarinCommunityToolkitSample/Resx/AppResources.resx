@@ -129,4 +129,28 @@
   <data name="Save" xml:space="preserve">
     <value>Save</value>
   </data>
+    <data name="BoolToObjectConverterShortDescription" xml:space="preserve">
+    <value>The BoolToObjectConverter is a converter that allows users to convert a bool value binding to a specific object.</value>
+  </data>
+  <data name="BoolToObjectConverterLongDescription" xml:space="preserve">
+    <value>The BoolToObjectConverter is a converter that allows users to convert a bool value binding to a specific object. By providing both a TrueObject and a FalseObject in the converter the appropriate object will be used depending on the value of the binding.</value>
+  </data>
+  <data name="DoubleToIntConverterShortDescription" xml:space="preserve">
+    <value>The DoubleToIntConverter is a converter that allows users to convert an incoming double value to an int.</value>
+  </data>
+  <data name="DoubleToIntConverterLongDescription" xml:space="preserve">
+    <value>The DoubleToIntConverter is a converter that allows users to convert an incoming double value to an int. Optionally the user can provide a multiplier to the conversion through the Ratio property.</value>
+  </data>
+  <data name="TextEntryPromt" xml:space="preserve">
+    <value>Please enter a decimal Number</value>
+  </data>
+  <data name="EqualConverterShortDescription" xml:space="preserve">
+    <value>The EqualConverter is a converter that allows users to convert any value binding to a bool depending on whether or not it is equal to a different value. </value>
+  </data>
+  <data name="EqualConverterLongDescription" xml:space="preserve">
+    <value>The EqualConverter is a converter that allows users to convert any value binding to a bool depending on whether or not it is equal to a different value. The initial binding contains the object that will be compared and the ConverterParameter contains the object to compare it to.</value>
+  </data>
+    <data name="EqualPromtText" xml:space="preserve">
+    <value>Please enter 100 for true anyting else for false</value>
+  </data>
 </root>

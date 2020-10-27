@@ -70,5 +70,53 @@ namespace Xamarin.CommunityToolkit.Sample.Resx {
                 return ResourceManager.GetString("Save", resourceCulture);
             }
         }
+        
+        internal static string BoolToObjectConverterShortDescription {
+            get {
+                return ResourceManager.GetString("BoolToObjectConverterShortDescription", resourceCulture);
+            }
+        }
+        
+        internal static string BoolToObjectConverterLongDescription {
+            get {
+                return ResourceManager.GetString("BoolToObjectConverterLongDescription", resourceCulture);
+            }
+        }
+        
+        internal static string DoubleToIntConverterShortDescription {
+            get {
+                return ResourceManager.GetString("DoubleToIntConverterShortDescription", resourceCulture);
+            }
+        }
+        
+        internal static string DoubleToIntConverterLongDescription {
+            get {
+                return ResourceManager.GetString("DoubleToIntConverterLongDescription", resourceCulture);
+            }
+        }
+        
+        internal static string TextEntryPromt {
+            get {
+                return ResourceManager.GetString("TextEntryPromt", resourceCulture);
+            }
+        }
+        
+        internal static string EqualConverterShortDescription {
+            get {
+                return ResourceManager.GetString("EqualConverterShortDescription", resourceCulture);
+            }
+        }
+        
+        internal static string EqualConverterLongDescription {
+            get {
+                return ResourceManager.GetString("EqualConverterLongDescription", resourceCulture);
+            }
+        }
+        
+        internal static string EqualPromtText {
+            get {
+                return ResourceManager.GetString("EqualPromtText", resourceCulture);
+            }
+        }
     }
 }
