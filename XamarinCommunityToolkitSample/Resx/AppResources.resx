@@ -159,4 +159,10 @@
   <data name="IndexToArrayItemConverterLongDescription" xml:space="preserve">
     <value>The IndexToArrayItemConverter is a converter that allows users to convert a int value binding to an item in an array. The int value being data bound represents the indexer used to access the array. The array is passed in through the ConverterParameter.</value>
   </data>
+   <data name="IntToBoolConverterShortDescription" xml:space="preserve">
+    <value>The IntToBoolConverter is a converter that allows users to convert an incoming int value to a bool.</value>
+  </data>
+  <data name="IntToBoolConverterLongDescription" xml:space="preserve">
+    <value>The IntToBoolConverter is a converter that allows users to convert an incoming int value to a bool. If the incoming int value is 0, it will be converted to false. Any other incoming value will be converted to true.</value>
+  </data>
 </root>

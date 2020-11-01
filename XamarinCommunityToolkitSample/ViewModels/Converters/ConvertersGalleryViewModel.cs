@@ -28,6 +28,10 @@ namespace Xamarin.CommunityToolkit.Sample.ViewModels.Converters
 				nameof(IndexToArrayItemConverter),
 				AppResources.EqualConverterShortDescription),
 			new SectionModel(
+				typeof(IntToBoolConverterPage),
+				nameof(IntToBoolConverter),
+				AppResources.IntToBoolConverterShortDescription),
+			new SectionModel(
 				typeof(ItemTappedEventArgsPage),
 				nameof(ItemTappedEventArgsConverter),
 				"A converter that allows you to extract the value from ItemTappedEventArgs that can be used in combination with EventToCommandBehavior"),

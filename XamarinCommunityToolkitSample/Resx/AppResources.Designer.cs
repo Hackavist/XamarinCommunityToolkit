@@ -130,5 +130,17 @@ namespace Xamarin.CommunityToolkit.Sample.Resx {
                 return ResourceManager.GetString("IndexToArrayItemConverterLongDescription", resourceCulture);
             }
         }
+        
+        internal static string IntToBoolConverterShortDescription {
+            get {
+                return ResourceManager.GetString("IntToBoolConverterShortDescription", resourceCulture);
+            }
+        }
+        
+        internal static string IntToBoolConverterLongDescription {
+            get {
+                return ResourceManager.GetString("IntToBoolConverterLongDescription", resourceCulture);
+            }
+        }
     }
 }

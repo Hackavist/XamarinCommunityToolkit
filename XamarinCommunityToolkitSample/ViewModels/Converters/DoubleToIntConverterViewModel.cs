@@ -2,6 +2,15 @@
 {
 	public class DoubleToIntConverterViewModel : BaseViewModel
 	{
-		public double Input { get; set; }
+		double _index;
+		public double Index
+		{
+			get => _index;
+			set
+			{
+				_index = value;
+				OnPropertyChanged(nameof(Index));
+			}
+		}
 	}
 }
