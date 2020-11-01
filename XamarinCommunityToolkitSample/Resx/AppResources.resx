@@ -150,7 +150,13 @@
   <data name="EqualConverterLongDescription" xml:space="preserve">
     <value>The EqualConverter is a converter that allows users to convert any value binding to a bool depending on whether or not it is equal to a different value. The initial binding contains the object that will be compared and the ConverterParameter contains the object to compare it to.</value>
   </data>
-    <data name="EqualPromtText" xml:space="preserve">
+  <data name="EqualPromtText" xml:space="preserve">
     <value>Please enter 100 for true anyting else for false</value>
+  </data>
+  <data name="IndexToArrayItemConverterShortDescription" xml:space="preserve">
+    <value>The IndexToArrayItemConverter is a converter that allows users to convert a int value binding to an item in an array.</value>
+  </data>
+  <data name="IndexToArrayItemConverterLongDescription" xml:space="preserve">
+    <value>The IndexToArrayItemConverter is a converter that allows users to convert a int value binding to an item in an array. The int value being data bound represents the indexer used to access the array. The array is passed in through the ConverterParameter.</value>
   </data>
 </root>

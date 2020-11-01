@@ -13,18 +13,19 @@ namespace Xamarin.CommunityToolkit.Sample.ViewModels.Converters
 		{
 			new SectionModel(
 				typeof(BoolToObjectConverterPage),
-				"BoolToObjectConverter",
-				Color.FromHex("#498205"),
+				nameof(BoolToObjectConverter),
 				AppResources.BoolToObjectConverterShortDescription),
 			new SectionModel(
 				typeof(DoubleToIntConverterPage),
-				"DoubleToIntConverter",
-				Color.FromHex("#498205"),
+				nameof(DoubleToIntConverter),
 				AppResources.DoubleToIntConverterShortDescription),
 			new SectionModel(
 				typeof(EqualConverterPage),
-				"EqualConverter",
-				Color.FromHex("#498205"),
+				nameof(EqualConverter),
+				AppResources.EqualConverterShortDescription),
+			new SectionModel(
+				typeof(IndexToArrayItemConverterPage),
+				nameof(IndexToArrayItemConverter),
 				AppResources.EqualConverterShortDescription),
 			new SectionModel(
 				typeof(ItemTappedEventArgsPage),

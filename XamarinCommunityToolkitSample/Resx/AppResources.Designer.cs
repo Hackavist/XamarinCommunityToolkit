@@ -118,5 +118,17 @@ namespace Xamarin.CommunityToolkit.Sample.Resx {
                 return ResourceManager.GetString("EqualPromtText", resourceCulture);
             }
         }
+        
+        internal static string IndexToArrayItemConverterShortDescription {
+            get {
+                return ResourceManager.GetString("IndexToArrayItemConverterShortDescription", resourceCulture);
+            }
+        }
+        
+        internal static string IndexToArrayItemConverterLongDescription {
+            get {
+                return ResourceManager.GetString("IndexToArrayItemConverterLongDescription", resourceCulture);
+            }
+        }
     }
 }
